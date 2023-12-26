@@ -12,7 +12,7 @@ import {
 import CloseIcon from "@mui/icons-material/Close";
 import ContrastIcon from "@mui/icons-material/Contrast";
 import Image from "next/image";
-import React, { useState } from "react";
+import { useState } from "react";
 
 type ImageModalProps = {
   open: boolean;
@@ -44,14 +44,14 @@ const ImageModal = ({ open, handleClose, imgUrl, title }: ImageModalProps) => {
           timeout: 700,
         },
       }}
-      className="flex justify-center h-full p-2"
+      className="flex flex-col justify-center h-full p-2"
     >
       <>
         <Fade in={open} timeout={700}>
-          <ImageListItem>
+          <ImageListItem className="w-full h-full flex justify-center align-middle">
             <ImageListItemBar
               sx={{
-                zIndex: 1,
+                zIndex: 0,
                 background: `${actionBarBGStyle}`,
                 fontSize: "10rem",
                 ".MuiImageListItemBar-actionIcon": {
@@ -95,8 +95,8 @@ const ImageModal = ({ open, handleClose, imgUrl, title }: ImageModalProps) => {
             <Image
               src={imgUrl}
               alt={title}
-              width={560}
-              height={782}
+              width={780}
+              height={780}
               style={{ objectFit: "contain" }}
               className={`z-50 ${inverted ? "filter invert" : ""}`}
             />

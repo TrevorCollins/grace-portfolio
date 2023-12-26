@@ -5,7 +5,7 @@ import Cutout from "./Cutout";
 
 const Gallery = () => {
   return (
-    <ul className="grid list-none w-full px-8 overflow-visible grid-cols-3 md:grid-cols-12 grid-rows-2">
+    <ul className="grid list-none w-full overflow-visible grid-cols-12 grid-rows-2">
       {imageArr.map((item, index) => {
         return <Cutout key={`${item.url}-${index}`} item={item} />;
       })}

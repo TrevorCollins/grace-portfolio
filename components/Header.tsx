@@ -7,10 +7,6 @@ const Header = () => {
   return (
     <div className="fixed flex font-primary font-thin justify-between h-36 w-full px-6 py-8 opacity-90 bg-black z-40 ">
       <div>
-        {/* <h1 className="text-4xl pb-2">grace snyder</h1>
-        <div className="pt-2 flex justify-start">
-          <p>grace@gracesnyder.com</p>
-        </div> */}
         <Image
           src="/assets/images/gracesnyderbanner.png"
           alt="Grace Snyder"
