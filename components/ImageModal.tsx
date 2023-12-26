@@ -24,7 +24,7 @@ type ImageModalProps = {
 const ImageModal = ({ open, handleClose, imgUrl, title }: ImageModalProps) => {
   const [inverted, setInverted] = useState(false);
   const buttonStyle =
-    "z-50 bg-black text-white w-16 h-16 mx-2 hover:bg-gray-300 hover:text-black transition duration-500 ease-in-out";
+    "z-50 bg-black text-white w-6 h-6 text-sm mx-2 hover:bg-gray-300 hover:text-black transition duration-500 ease-in-out";
   const actionBarBGStyle =
     "linear-gradient(to bottom, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.3) 70%, rgba(0,0,0,0) 100%)";
   return (
@@ -53,7 +53,7 @@ const ImageModal = ({ open, handleClose, imgUrl, title }: ImageModalProps) => {
               sx={{
                 zIndex: 1,
                 background: `${actionBarBGStyle}`,
-                fontSize: "4rem",
+                fontSize: "10rem",
                 ".MuiImageListItemBar-actionIcon": {
                   display: "flex",
                   margin: "1rem",
@@ -62,6 +62,11 @@ const ImageModal = ({ open, handleClose, imgUrl, title }: ImageModalProps) => {
                   ":hover": {
                     background: "none",
                   },
+                },
+                ".MuiImageListItemBar-title": {
+                  fontSize: "1.5rem",
+                  overflow: "visible",
+                  textWrap: "wrap",
                 },
               }}
               title={title}
@@ -73,6 +78,7 @@ const ImageModal = ({ open, handleClose, imgUrl, title }: ImageModalProps) => {
                     className={`${buttonStyle}`}
                   >
                     <ContrastIcon
+                      fontSize="inherit"
                       className={`${inverted ? "rotate-180" : ""}`}
                     />
                   </IconButton>
@@ -80,7 +86,7 @@ const ImageModal = ({ open, handleClose, imgUrl, title }: ImageModalProps) => {
                     onClick={handleClose}
                     className={`${buttonStyle} hover:rotate-90`}
                   >
-                    <CloseIcon />
+                    <CloseIcon fontSize="inherit" />
                   </IconButton>
                 </>
               }
