@@ -7,11 +7,12 @@ import {
   Modal,
   ImageListItemBar,
   ImageListItem,
+  Skeleton,
 } from "@mui/material";
 import CloseIcon from "@mui/icons-material/Close";
 import ContrastIcon from "@mui/icons-material/Contrast";
 import Image from "next/image";
-import { useState } from "react";
+import { Suspense, useState } from "react";
 
 type ImageModalProps = {
   open: boolean;
@@ -49,6 +50,8 @@ const ImageModal = ({ open, handleClose, imgUrl, title }: ImageModalProps) => {
         maxHeight: "90vh",
         margin: "auto",
         width: "520px",
+        display: "flex",
+        alignItems: "center",
       }}
     >
       <Fade in={open} timeout={500}>
@@ -99,11 +102,22 @@ const ImageModal = ({ open, handleClose, imgUrl, title }: ImageModalProps) => {
             }
             actionPosition="right"
           />
+          {/* {loading && (
+            <Skeleton
+              className="z-1 object-contain opacity-100"
+              width={520}
+              height={840}
+              variant="rectangular"
+            />
+          )} */}
           <Image
             src={imgUrl}
             alt={title}
             width={520}
             height={840}
+            quality={100}
+            placeholder="blur"
+            blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNk2A8AAMUAwUPJ2C4AAAAASUVORK5CYII="
             style={{ objectFit: "contain" }}
             className={`z-1 ${inverted ? "filter invert" : ""}`}
           />

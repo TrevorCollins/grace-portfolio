@@ -16,6 +16,7 @@
     "@mui/lab": "^5.0.0-alpha.156",
     "@mui/material": "^5.15.1",
     "autoprefixer": "^10.4.16",
+    "lightbox.js-react": "^0.9.8",
     "next": "14.0.4",
     "postcss": "^8.4.32",
     "react": "^18",

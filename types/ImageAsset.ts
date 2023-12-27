@@ -3,4 +3,5 @@ export interface ImageAsset {
   title: string;
   rows: number;
   cols: number;
+  itemIndex?: number;
 }

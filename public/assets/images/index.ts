@@ -5,6 +5,7 @@ export const imageArr = [
     fullUrl: "/assets/images/jpg/LowlyWorm.jpg",
     cols: 3,
     rows: 3,
+    itemIndex: 0,
   },
   {
     title: "Angler",
@@ -12,6 +13,7 @@ export const imageArr = [
     fullUrl: "/assets/images/jpg/Angler.jpg",
     cols: 6,
     rows: 3,
+    itemIndex: 1,
   },
   {
     title: "Plump",
@@ -19,6 +21,7 @@ export const imageArr = [
     fullUrl: "/assets/images/jpg/Plump.jpg",
     cols: 3,
     rows: 3,
+    itemIndex: 2,
   },
   {
     title: "Venus Fly Trap",
@@ -26,6 +29,7 @@ export const imageArr = [
     fullUrl: "/assets/images/jpg/Venus.jpg",
     cols: 5,
     rows: 3,
+    itemIndex: 3,
   },
   {
     title: "Ode to Alouise",
@@ -33,6 +37,7 @@ export const imageArr = [
     fullUrl: "/assets/images/jpg/Alouise.jpg",
     cols: 4,
     rows: 2,
+    itemIndex: 4,
   },
   {
     title: "The Moon",
@@ -40,6 +45,7 @@ export const imageArr = [
     fullUrl: "/assets/images/jpg/TheMoon.jpg",
     cols: 3,
     rows: 3,
+    itemIndex: 5,
   },
   {
     title: "blank",
@@ -54,6 +60,7 @@ export const imageArr = [
     fullUrl: "/assets/images/jpg/TheSun.jpg",
     cols: 3,
     rows: 3,
+    itemIndex: 6,
   },
   {
     title: "Swallowtail",
@@ -61,6 +68,7 @@ export const imageArr = [
     fullUrl: "/assets/images/jpg/Swallowtail.jpg",
     cols: 6,
     rows: 4,
+    itemIndex: 7,
   },
   {
     title: "Crocodile",
@@ -68,6 +76,7 @@ export const imageArr = [
     fullUrl: "/assets/images/jpg/Crocodile.jpg",
     cols: 3,
     rows: 3,
+    itemIndex: 8,
   },
   {
     title: "Toadstool",
@@ -75,6 +84,7 @@ export const imageArr = [
     fullUrl: "/assets/images/jpg/Toadstool.jpg",
     cols: 3,
     rows: 3,
+    itemIndex: 9,
   },
   {
     title: "Frozen Deer",
@@ -82,6 +92,7 @@ export const imageArr = [
     fullUrl: "/assets/images/jpg/FrozenDeer.jpg",
     cols: 3,
     rows: 2,
+    itemIndex: 10,
   },
 
   {
@@ -90,6 +101,7 @@ export const imageArr = [
     fullUrl: "/assets/images/jpg/Jackalope.jpg",
     cols: 4,
     rows: 3,
+    itemIndex: 11,
   },
 
   {
@@ -98,6 +110,7 @@ export const imageArr = [
     fullUrl: "/assets/images/jpg/Mouse.jpg",
     cols: 2,
     rows: 2,
+    itemIndex: 12,
   },
 
   {
@@ -106,6 +119,7 @@ export const imageArr = [
     fullUrl: "/assets/images/jpg/Pansy.jpg",
     cols: 3,
     rows: 2,
+    itemIndex: 13,
   },
 
   {
@@ -114,6 +128,7 @@ export const imageArr = [
     fullUrl: "/assets/images/jpg/PomSpider.jpg",
     cols: 3,
     rows: 3,
+    itemIndex: 14,
   },
   {
     title: "XFiles",
@@ -121,6 +136,7 @@ export const imageArr = [
     fullUrl: "/assets/images/jpg/XFiles.jpg",
     cols: 3,
     rows: 4,
+    itemIndex: 15,
   },
   {
     title: "Autumnal Equinox",
@@ -128,6 +144,7 @@ export const imageArr = [
     fullUrl: "/assets/images/jpg/AutumnalEquinox.jpg",
     cols: 4,
     rows: 3,
+    itemIndex: 16,
   },
   {
     title: "Witch Toad",
@@ -135,6 +152,7 @@ export const imageArr = [
     fullUrl: "/assets/images/jpg/WitchToad.jpg",
     cols: 5,
     rows: 4,
+    itemIndex: 17,
   },
   {
     title: "Pumpkin & Friend",
@@ -142,6 +160,7 @@ export const imageArr = [
     fullUrl: "/assets/images/jpg/Pumpkin.jpg",
     cols: 4,
     rows: 3,
+    itemIndex: 18,
   },
   {
     title: "Tree Frog and Mushrooms",
@@ -149,6 +168,7 @@ export const imageArr = [
     fullUrl: "/assets/images/jpg/TreeFrog.jpg",
     cols: 3,
     rows: 2,
+    itemIndex: 19,
   },
   {
     title: "blank",
@@ -163,6 +183,7 @@ export const imageArr = [
     fullUrl: "/assets/images/jpg/Peony.jpg",
     cols: 4,
     rows: 2,
+    itemIndex: 20,
   },
   {
     title: "Dangerous",
@@ -170,6 +191,7 @@ export const imageArr = [
     fullUrl: "/assets/images/jpg/Dangerous.jpg",
     cols: 5,
     rows: 3,
+    itemIndex: 21,
   },
 
   {
@@ -178,6 +200,7 @@ export const imageArr = [
     fullUrl: "/assets/images/jpg/Fawn.jpg",
     cols: 3,
     rows: 3,
+    itemIndex: 22,
   },
 
   {
@@ -186,6 +209,7 @@ export const imageArr = [
     fullUrl: "/assets/images/jpg/TheHead.jpg",
     cols: 4,
     rows: 3,
+    itemIndex: 23,
   },
   {
     title: "Medusa Antoinette",
@@ -193,6 +217,7 @@ export const imageArr = [
     fullUrl: "/assets/images/jpg/Medusa.jpg",
     cols: 4,
     rows: 3,
+    itemIndex: 24,
   },
   {
     title: "Greif & Growth",
@@ -200,6 +225,7 @@ export const imageArr = [
     fullUrl: "/assets/images/jpg/GreifGrowth.jpg",
     cols: 4,
     rows: 3,
+    itemIndex: 25,
   },
   {
     title: "Fire",
@@ -207,6 +233,7 @@ export const imageArr = [
     fullUrl: "/assets/images/jpg/Fire.jpg",
     cols: 4,
     rows: 4,
+    itemIndex: 26,
   },
   {
     title: "The Chase",
@@ -214,6 +241,7 @@ export const imageArr = [
     fullUrl: "/assets/images/jpg/TheChase.jpg",
     cols: 6,
     rows: 4,
+    itemIndex: 27,
   },
   {
     title: "Rose",
@@ -221,6 +249,7 @@ export const imageArr = [
     fullUrl: "/assets/images/jpg/Rose.jpg",
     cols: 2,
     rows: 2,
+    itemIndex: 28,
   },
   {
     title: "blank",
@@ -235,6 +264,7 @@ export const imageArr = [
     fullUrl: "/assets/images/jpg/FairyRing.jpg",
     cols: 5,
     rows: 4,
+    itemIndex: 29,
   },
   {
     title: "Oarfish",
@@ -242,6 +272,7 @@ export const imageArr = [
     fullUrl: "/assets/images/jpg/Oarfish.jpg",
     cols: 3,
     rows: 4,
+    itemIndex: 30,
   },
   {
     title: "Spicy",
@@ -249,6 +280,7 @@ export const imageArr = [
     fullUrl: "/assets/images/jpg/Spicy.jpg",
     cols: 4,
     rows: 4,
+    itemIndex: 31,
   },
   {
     title: "Art Nouveau Flower1",
@@ -256,6 +288,7 @@ export const imageArr = [
     fullUrl: "/assets/images/jpg/ArtNouveauFlower1.jpg",
     cols: 2,
     rows: 2,
+    itemIndex: 32,
   },
   {
     title: "Art Nouveau Flower2",
@@ -263,6 +296,7 @@ export const imageArr = [
     fullUrl: "/assets/images/jpg/ArtNouveauFlower2.jpg",
     cols: 2,
     rows: 2,
+    itemIndex: 33,
   },
   {
     title: "Handurian White Bat",
@@ -270,6 +304,7 @@ export const imageArr = [
     fullUrl: "/assets/images/jpg/Bats.jpg",
     cols: 6,
     rows: 2,
+    itemIndex: 34,
   },
   {
     title: "blank",
@@ -284,6 +319,7 @@ export const imageArr = [
     fullUrl: "/assets/images/jpg/ArtNouveauFlower3.jpg",
     cols: 2,
     rows: 2,
+    itemIndex: 35,
   },
   {
     title: "Art Nouveau Flower4",
@@ -291,6 +327,7 @@ export const imageArr = [
     fullUrl: "/assets/images/jpg/ArtNouveauFlower4.jpg",
     cols: 2,
     rows: 2,
+    itemIndex: 36,
   },
   {
     title: "Mushroom 1",
@@ -298,6 +335,7 @@ export const imageArr = [
     fullUrl: "/assets/images/jpg/Mushroom1.jpg",
     cols: 3,
     rows: 2,
+    itemIndex: 37,
   },
   {
     title: "Mushroom 2",
@@ -305,6 +343,7 @@ export const imageArr = [
     fullUrl: "/assets/images/jpg/Mushroom2.jpg",
     cols: 3,
     rows: 2,
+    itemIndex: 38,
   },
 
   {
@@ -313,6 +352,7 @@ export const imageArr = [
     fullUrl: "/assets/images/jpg/Spiders.jpg",
     cols: 6,
     rows: 4,
+    itemIndex: 39,
   },
   {
     title: "blank",
@@ -327,6 +367,7 @@ export const imageArr = [
     fullUrl: "/assets/images/jpg/Mushroom3.jpg",
     cols: 3,
     rows: 2,
+    itemIndex: 40,
   },
   {
     title: "blank",
@@ -341,5 +382,6 @@ export const imageArr = [
     fullUrl: "/assets/images/jpg/FigPaloma.jpg",
     cols: 12,
     rows: 4,
+    itemIndex: 41,
   },
 ];

@@ -4,27 +4,26 @@ import { ImageListItem } from "@mui/material";
 import Image from "next/image";
 import { useState } from "react";
 import ImageModal from "./ImageModal";
+import GLightbox from "./GLightbox";
+import { LightboxPropTypes } from "./Gallery";
+import { ImageAsset } from "@/types/ImageAsset";
 
 type CutoutProps = {
-  item: {
-    url: string | null;
-    fullUrl: string | null;
-    title: string;
-    rows: number;
-    cols: number;
-  };
+  item: ImageAsset;
+  index: number;
+  setLightboxProps: (props: LightboxPropTypes) => void;
 };
 
-const Cutout = ({ item }: CutoutProps) => {
+const Cutout = ({ setLightboxProps, index, item }: CutoutProps) => {
   const [open, setOpen] = useState(false);
   return (
     <>
-      <ImageModal
+      {/* <ImageModal
         open={open}
         handleClose={() => setOpen(false)}
         imgUrl={item.fullUrl}
         title={item.title}
-      />
+      /> */}
       <ImageListItem
         className="hover:scale-105 transition-all"
         cols={item.cols}
@@ -33,14 +32,15 @@ const Cutout = ({ item }: CutoutProps) => {
       >
         {item.url ? (
           <Image
-            className="cursor-pointer "
+            className="cursor-pointer"
+            loading="lazy"
             src={item.url}
             alt={item.title}
             style={{ objectFit: "contain" }}
             width={400 * item.cols}
             height={400 * item.rows}
             onClick={() => {
-              setOpen(true);
+              setLightboxProps({ open: true, index: item.itemIndex || 0 });
             }}
           />
         ) : (
