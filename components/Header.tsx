@@ -5,14 +5,12 @@ import Link from "next/link";
 
 const Header = () => {
   return (
-    <div className="fixed flex font-primary font-thin justify-between h-36 w-full px-6 py-8 opacity-90 bg-black z-40 ">
+    <div className="fixed flex justify-between h-36 w-full px-6 py-8 opacity-90 bg-black z-40 ">
       <div>
-        <Image
-          src="/assets/images/gracesnyderbanner.png"
-          alt="Grace Snyder"
-          width={400}
-          height={100}
-        />
+        <h1 className="text-6xl/8 max-sm:text-5xl">grace snyder</h1>
+        <div className="flex pl-7 tracking-wide justify-start max-sm:p-0">
+          <p>grace@gracesnyder.com</p>
+        </div>
       </div>
       <div className="opacity-80 hover:opacity-100 hover:scale-105 transition duration-200 ease-in-out">
         <IconButton className="text-white">
