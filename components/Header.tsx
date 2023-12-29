@@ -1,6 +1,5 @@
 import InstagramIcon from "@mui/icons-material/Instagram";
 import { IconButton } from "@mui/material";
-import Image from "next/image";
 import Link from "next/link";
 
 const Header = () => {

@@ -15,6 +15,7 @@ const Gallery = () => {
     open: false,
     index: 0,
   });
+
   return (
     <>
       <ul className="grid list-none w-full overflow-visible grid-cols-12 grid-rows-2">

@@ -30,15 +30,13 @@ const Cutout = ({ setLightboxProps, index, item }: CutoutProps) => {
         rows={item.rows}
         style={{ height: "auto", display: "flex", justifyContent: "center" }}
       >
-        {item.url ? (
+        {item.png ? (
           <Image
             className="cursor-pointer"
             loading="lazy"
-            src={item.url}
+            src={item.png}
             alt={item.title}
             style={{ objectFit: "contain" }}
-            width={400 * item.cols}
-            height={400 * item.rows}
             onClick={() => {
               setLightboxProps({ open: true, index: item.itemIndex || 0 });
             }}

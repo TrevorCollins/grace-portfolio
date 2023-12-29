@@ -1,3 +1,46 @@
+import LowlyWorm from "./png/LowlyWorm.png";
+import Angler from "./png/Angler.png";
+import Plump from "./png/Plump.png";
+import Venus from "./png/Venus.png";
+import Alouise from "./png/Alouise.png";
+import TheMoon from "./png/TheMoon.png";
+import TheSun from "./png/TheSun.png";
+import Swallowtail from "./png/Swallowtail.png";
+import Crocodile from "./png/Crocodile.png";
+import Toadstool from "./png/Toadstool.png";
+import FrozenDeer from "./png/FrozenDeer.png";
+import Jackalope from "./png/Jackalope.png";
+import Mouse from "./png/Mouse.png";
+import Pansy from "./png/Pansy.png";
+import PomSpider from "./png/PomSpider.png";
+import XFiles from "./png/XFiles.png";
+import AutumnalEquinox from "./png/AutumnalEquinox.png";
+import WitchToad from "./png/WitchToad.png";
+import Pumpkin from "./png/Pumpkin.png";
+import TreeFrog from "./png/TreeFrog.png";
+import Peony from "./png/Peony.png";
+import Dangerous from "./png/Dangerous.png";
+import Fawn from "./png/Fawn.png";
+import TheHead from "./png/TheHead.png";
+import Medusa from "./png/Medusa.png";
+import GreifGrowth from "./png/GreifGrowth.png";
+import Fire from "./png/Fire.png";
+import TheChase from "./png/TheChase.png";
+import Rose from "./png/Rose.png";
+import FairyRing from "./png/FairyRing.png";
+import Oarfish from "./png/Oarfish.png";
+import Spicy from "./png/Spicy.png";
+import ArtNouveauFlower1 from "./png/ArtNouveauFlower1.png";
+import ArtNouveauFlower2 from "./png/ArtNouveauFlower2.png";
+import Bats from "./png/Bats.png";
+import ArtNouveauFlower3 from "./png/ArtNouveauFlower3.png";
+import ArtNouveauFlower4 from "./png/ArtNouveauFlower4.png";
+import Mushroom1 from "./png/Mushroom1.png";
+import Mushroom2 from "./png/Mushroom2.png";
+import Spiders from "./png/Spiders.png";
+import Mushroom3 from "./png/Mushroom3.png";
+import FigPaloma from "./png/FigPaloma.png";
+
 export const imageArr = [
   {
     title: "Lowly Worm",
@@ -6,6 +49,7 @@ export const imageArr = [
     cols: 3,
     rows: 3,
     itemIndex: 0,
+    png: LowlyWorm,
   },
   {
     title: "Angler",
@@ -14,6 +58,7 @@ export const imageArr = [
     cols: 6,
     rows: 3,
     itemIndex: 1,
+    png: Angler,
   },
   {
     title: "Plump",
@@ -22,6 +67,7 @@ export const imageArr = [
     cols: 3,
     rows: 3,
     itemIndex: 2,
+    png: Plump,
   },
   {
     title: "Venus Fly Trap",
@@ -30,6 +76,7 @@ export const imageArr = [
     cols: 5,
     rows: 3,
     itemIndex: 3,
+    png: Venus,
   },
   {
     title: "Ode to Alouise",
@@ -38,6 +85,7 @@ export const imageArr = [
     cols: 4,
     rows: 2,
     itemIndex: 4,
+    png: Alouise,
   },
   {
     title: "The Moon",
@@ -46,6 +94,7 @@ export const imageArr = [
     cols: 3,
     rows: 3,
     itemIndex: 5,
+    png: TheMoon,
   },
   {
     title: "blank",
@@ -61,6 +110,7 @@ export const imageArr = [
     cols: 3,
     rows: 3,
     itemIndex: 6,
+    png: TheSun,
   },
   {
     title: "Swallowtail",
@@ -69,6 +119,7 @@ export const imageArr = [
     cols: 6,
     rows: 4,
     itemIndex: 7,
+    png: Swallowtail,
   },
   {
     title: "Crocodile",
@@ -77,6 +128,7 @@ export const imageArr = [
     cols: 3,
     rows: 3,
     itemIndex: 8,
+    png: Crocodile,
   },
   {
     title: "Toadstool",
@@ -85,6 +137,7 @@ export const imageArr = [
     cols: 3,
     rows: 3,
     itemIndex: 9,
+    png: Toadstool,
   },
   {
     title: "Frozen Deer",
@@ -93,6 +146,7 @@ export const imageArr = [
     cols: 3,
     rows: 2,
     itemIndex: 10,
+    png: FrozenDeer,
   },
 
   {
@@ -102,6 +156,7 @@ export const imageArr = [
     cols: 4,
     rows: 3,
     itemIndex: 11,
+    png: Jackalope,
   },
 
   {
@@ -111,6 +166,7 @@ export const imageArr = [
     cols: 2,
     rows: 2,
     itemIndex: 12,
+    png: Mouse,
   },
 
   {
@@ -120,6 +176,7 @@ export const imageArr = [
     cols: 3,
     rows: 2,
     itemIndex: 13,
+    png: Pansy,
   },
 
   {
@@ -129,6 +186,7 @@ export const imageArr = [
     cols: 3,
     rows: 3,
     itemIndex: 14,
+    png: PomSpider,
   },
   {
     title: "XFiles",
@@ -137,6 +195,7 @@ export const imageArr = [
     cols: 3,
     rows: 4,
     itemIndex: 15,
+    png: XFiles,
   },
   {
     title: "Autumnal Equinox",
@@ -145,6 +204,7 @@ export const imageArr = [
     cols: 4,
     rows: 3,
     itemIndex: 16,
+    png: AutumnalEquinox,
   },
   {
     title: "Witch Toad",
@@ -153,6 +213,7 @@ export const imageArr = [
     cols: 5,
     rows: 4,
     itemIndex: 17,
+    png: WitchToad,
   },
   {
     title: "Pumpkin & Friend",
@@ -161,6 +222,7 @@ export const imageArr = [
     cols: 4,
     rows: 3,
     itemIndex: 18,
+    png: Pumpkin,
   },
   {
     title: "Tree Frog and Mushrooms",
@@ -169,6 +231,7 @@ export const imageArr = [
     cols: 3,
     rows: 2,
     itemIndex: 19,
+    png: TreeFrog,
   },
   {
     title: "blank",
@@ -184,6 +247,7 @@ export const imageArr = [
     cols: 4,
     rows: 2,
     itemIndex: 20,
+    png: Peony,
   },
   {
     title: "Dangerous",
@@ -192,6 +256,7 @@ export const imageArr = [
     cols: 5,
     rows: 3,
     itemIndex: 21,
+    png: Dangerous,
   },
 
   {
@@ -201,6 +266,7 @@ export const imageArr = [
     cols: 3,
     rows: 3,
     itemIndex: 22,
+    png: Fawn,
   },
 
   {
@@ -210,6 +276,7 @@ export const imageArr = [
     cols: 4,
     rows: 3,
     itemIndex: 23,
+    png: TheHead,
   },
   {
     title: "Medusa Antoinette",
@@ -218,6 +285,7 @@ export const imageArr = [
     cols: 4,
     rows: 3,
     itemIndex: 24,
+    png: Medusa,
   },
   {
     title: "Greif & Growth",
@@ -226,6 +294,7 @@ export const imageArr = [
     cols: 4,
     rows: 3,
     itemIndex: 25,
+    png: GreifGrowth,
   },
   {
     title: "Fire",
@@ -234,6 +303,7 @@ export const imageArr = [
     cols: 4,
     rows: 4,
     itemIndex: 26,
+    png: Fire,
   },
   {
     title: "The Chase",
@@ -242,6 +312,7 @@ export const imageArr = [
     cols: 6,
     rows: 4,
     itemIndex: 27,
+    png: TheChase,
   },
   {
     title: "Rose",
@@ -250,6 +321,7 @@ export const imageArr = [
     cols: 2,
     rows: 2,
     itemIndex: 28,
+    png: Rose,
   },
   {
     title: "blank",
@@ -265,6 +337,7 @@ export const imageArr = [
     cols: 5,
     rows: 4,
     itemIndex: 29,
+    png: FairyRing,
   },
   {
     title: "Oarfish",
@@ -273,6 +346,7 @@ export const imageArr = [
     cols: 3,
     rows: 4,
     itemIndex: 30,
+    png: Oarfish,
   },
   {
     title: "Spicy",
@@ -281,6 +355,7 @@ export const imageArr = [
     cols: 4,
     rows: 4,
     itemIndex: 31,
+    png: Spicy,
   },
   {
     title: "Art Nouveau Flower1",
@@ -289,6 +364,7 @@ export const imageArr = [
     cols: 2,
     rows: 2,
     itemIndex: 32,
+    png: ArtNouveauFlower1,
   },
   {
     title: "Art Nouveau Flower2",
@@ -297,6 +373,7 @@ export const imageArr = [
     cols: 2,
     rows: 2,
     itemIndex: 33,
+    png: ArtNouveauFlower2,
   },
   {
     title: "Handurian White Bat",
@@ -305,6 +382,7 @@ export const imageArr = [
     cols: 6,
     rows: 2,
     itemIndex: 34,
+    png: Bats,
   },
   {
     title: "blank",
@@ -320,6 +398,7 @@ export const imageArr = [
     cols: 2,
     rows: 2,
     itemIndex: 35,
+    png: ArtNouveauFlower3,
   },
   {
     title: "Art Nouveau Flower4",
@@ -328,6 +407,7 @@ export const imageArr = [
     cols: 2,
     rows: 2,
     itemIndex: 36,
+    png: ArtNouveauFlower4,
   },
   {
     title: "Mushroom 1",
@@ -336,6 +416,7 @@ export const imageArr = [
     cols: 3,
     rows: 2,
     itemIndex: 37,
+    png: Mushroom1,
   },
   {
     title: "Mushroom 2",
@@ -344,6 +425,7 @@ export const imageArr = [
     cols: 3,
     rows: 2,
     itemIndex: 38,
+    png: Mushroom2,
   },
 
   {
@@ -353,6 +435,7 @@ export const imageArr = [
     cols: 6,
     rows: 4,
     itemIndex: 39,
+    png: Spiders,
   },
   {
     title: "blank",
@@ -368,6 +451,7 @@ export const imageArr = [
     cols: 3,
     rows: 2,
     itemIndex: 40,
+    png: Mushroom3,
   },
   {
     title: "blank",
@@ -383,5 +467,6 @@ export const imageArr = [
     cols: 12,
     rows: 4,
     itemIndex: 41,
+    png: FigPaloma,
   },
 ];

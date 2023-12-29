@@ -22,8 +22,10 @@ const GLightbox = ({ index, open, setLightboxProps }: Props) => {
     <SlideshowLightbox
       open={open}
       startingSlideIndex={index}
-      showThumbnails={false}
+      showThumbnails={true}
+      theme="lightbox"
       disableImageZoom
+      showFullScreenIcon={false}
       className="hidden"
       onClose={() => setLightboxProps({ open: false, index: 0 })}
       framework="nextjs"
