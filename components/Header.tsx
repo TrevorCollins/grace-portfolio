@@ -12,9 +12,9 @@ const Header = () => {
         </div>
       </div>
       <div className="opacity-80 hover:opacity-100 hover:scale-105 transition duration-200 ease-in-out">
-        <IconButton className="text-white">
+        <IconButton>
           <Link target="_blank" href="https://www.instagram.com/goldfished/">
-            <InstagramIcon />
+            <InstagramIcon className="text-white" />
           </Link>
         </IconButton>
       </div>
